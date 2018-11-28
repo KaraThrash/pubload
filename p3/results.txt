@@ -7,7 +7,7 @@
 
 ---Summary of options (-help option gives usage information).
 
--l1-usize 524288
+-l1-usize 64
 -l1-ubsize 16
 -l1-usbsize 16
 -l1-uassoc 1
@@ -32,21 +32,21 @@ l1-ucache
  Demand Fetches		          24	          17	           7	           5	           2	           0
   Fraction of total	      1.0000	      0.7083	      0.2917	      0.2083	      0.0833	      0.0000
 
- Demand Misses		           9	           5	           4	           3	           1	           0
-  Demand miss rate	      0.3750	      0.2941	      0.5714	      0.6000	      0.5000	      0.0000
+ Demand Misses		          16	           9	           7	           5	           2	           0
+  Demand miss rate	      0.6667	      0.5294	      1.0000	      1.0000	      1.0000	      0.0000
    Compulsory misses	           9	           5	           4	           3	           1	           0
-   Capacity misses	           0	           0	           0	           0	           0	           0
-   Conflict misses	           0	           0	           0	           0	           0	           0
-   Compulsory fraction	      1.0000	      1.0000	      1.0000	      1.0000	      1.0000	      0.0000
-   Capacity fraction	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-   Conflict fraction	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+   Capacity misses	           1	           0	           1	           0	           1	           0
+   Conflict misses	           6	           4	           2	           2	           0	           0
+   Compulsory fraction	      0.5625	      0.5556	      0.5714	      0.6000	      0.5000	      0.0000
+   Capacity fraction	      0.0625	      0.0000	      0.1429	      0.0000	      0.5000	      0.0000
+   Conflict fraction	      0.3750	      0.4444	      0.2857	      0.4000	      0.0000	      0.0000
 
  Multi-block refs                 0
- Bytes From Memory	         144
- ( / Demand Fetches)	      6.0000
+ Bytes From Memory	         256
+ ( / Demand Fetches)	     10.6667
  Bytes To Memory	          32
  ( / Demand Writes)	     16.0000
- Total Bytes r/w Mem	         176
- ( / Demand Fetches)	      7.3333
+ Total Bytes r/w Mem	         288
+ ( / Demand Fetches)	     12.0000
 
 ---Execution complete.
